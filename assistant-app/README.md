@@ -10,6 +10,10 @@ ai-app/
 └── web/   Next.js 16 · React 19 · TypeScript 7 · Tailwind CSS 4 · shadcn/ui
 ```
 
+## Architecture
+
+![Architecture diagram](docs/architecture.svg)
+
 ## Quick start
 
 **Requirements:** Python 3.13 with [uv](https://docs.astral.sh/uv/), Node.js 20.9+,
