@@ -1,11 +1,11 @@
-# Assistant — Full Stack
+# Assistant — Full Stack (app details)
 
 A production-ready AI chat application. It runs **local models through Ollama
 first** and falls back to **cloud AI** (Anthropic, OpenAI, Google Gemini, xAI
 Grok, Meta Llama) when no local model is installed or a local model fails.
 
 ```
-ai-app/
+assistant-app/
 ├── api/   FastAPI · Python 3.13 · uv · ruff · pytest · Ollama SDK · Anthropic / OpenAI SDKs
 └── web/   Next.js 16 · React 19 · TypeScript 7 · Tailwind CSS 4 · shadcn/ui
 ```

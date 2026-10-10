@@ -1,7 +1,7 @@
 [project]
-name = "full-stack-ai-app"
+name = "full-stack-ai-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "Full-stack AI assistant: chat, voice, photos and file Q&A with citations. Local Ollama first, cloud fallback."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-full-stack-ai-app = "full_stack_ai_app:main"
+full-stack-ai-agent = "full_stack_ai_agent:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

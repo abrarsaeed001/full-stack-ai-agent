@@ -1,13 +1,24 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
-
-# Virtual environments
 .venv
+.pytest_cache/
+.ruff_cache/
 
-# Logs
+# Node / Next.js
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Secrets and local config
+.env
+.env.local
+
+# Logs and OS files
 *.log
+.DS_Store
+Thumbs.db
